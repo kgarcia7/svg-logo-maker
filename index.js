@@ -1,2 +1,4 @@
-const fs = require('fs'),
-const svg = require('svg.js');
+const fs = require('fs');
+const inquirer = require('inquirer');
+
+
