@@ -34,7 +34,7 @@ function promptUser(){
             console.log("Please enter a value of 3 characters or less");
             promptUser();
         } else {
-            writeToFile("logo.svg", answers);
+            writeToFile("./dist/logo.svg", answers);
         }
     })
 }
@@ -57,7 +57,7 @@ function writeToFile(fileName, answers) {
         svgString += `<rect x="60" y="10" rx="10" ry="10" width="30" height="30" fill="${answers.shapeBackgroundColor}"/>`;
     }
 
-    svgString += `<text x="150" y="130" text-anchor="middle" font-size="30" fill=${answers.textColor}">${answers.text}</text>`;
+    svgString += `<text x="150" y="130" text-anchor="middle" font-size="30" fill="${answers.textColor}">${answers.text}</text>`;
     svgString += "</g>";
     svgString += "</svg>";
 

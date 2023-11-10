@@ -3,13 +3,19 @@
  "version": "1.0.0",
  "description": "A command-line application that generates a logo and saves its as an SVG gile",
  "main": "index.js",
- "scripts":{
-    "start": "node index.js"
+ "scripts": {
+  "start": "node index.js",
+  "test": "jest"
  },
-  "keywords": ["logo", "generator", "SVG"],
-  "author": "Karina Garcia",
-  "license": "ISC",
-  "dependencies": {
-        "inquirer": "8.2.4"
-    }
+ "keywords": [
+  "logo",
+  "generator",
+  "SVG"
+ ],
+ "author": "Karina Garcia",
+ "license": "ISC",
+ "dependencies": {
+  "inquirer": "8.2.4",
+  "jest": "^29.7.0"
+ }
 }
