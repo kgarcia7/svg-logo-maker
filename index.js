@@ -34,7 +34,7 @@ function promptUser(){
             console.log("Please enter a value of 3 characters or less");
             promptUser();
         } else {
-            writeToFile("./dist/logo.svg", answers);
+            writeToFile("./examples/logo.svg", answers);
         }
     })
 }
