@@ -26,6 +26,12 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ### Resources
 *The following links were used as reference to create my portfolio page*
 
-- 
+- https://www.w3schools.com/graphics/svg_examples.asp
+- https://jestjs.io/docs/getting-started
+- https://en.wikipedia.org/wiki/SVG
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
 
-Link to deployed application: 
+Link to walkthrough video: https://drive.google.com/file/d/1p64ymHWhAyOZWTh3M-B22R_V4_x-uKCu/view
+
+![Alt text](image-2.png)
